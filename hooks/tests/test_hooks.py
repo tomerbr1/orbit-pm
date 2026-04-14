@@ -87,7 +87,7 @@ class TestSessionStart:
             id=5,
             name="context-task",
             status="active",
-            jira_key="GC-999",
+            jira_key="PROJ-999",
             repo_id=1,
             full_path="active/context-task",
         )
@@ -111,7 +111,7 @@ class TestSessionStart:
 
         output = capsys.readouterr().out
         assert "context-task" in output
-        assert "GC-999" in output
+        assert "PROJ-999" in output
         assert "1h 0m" in output
 
 

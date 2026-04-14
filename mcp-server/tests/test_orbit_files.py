@@ -52,7 +52,7 @@ class TestCreateOrbitFiles:
         result = create_orbit_files(
             task_name="test-task",
             description="Filled description",
-            jira_key="GC-1234",
+            jira_key="PROJ-1234",
             branch="feature/test-task",
             tasks=["First task"],
         )
